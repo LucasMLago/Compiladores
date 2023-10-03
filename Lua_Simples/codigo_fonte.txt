@@ -1,0 +1,11 @@
+IF 123
+
+if x == 10 then {
+    return "Dark Souls" ;
+}
+else if x > 10 then {
+    return "\\n" ;  --[[ComentarioLongo]]
+}
+else {
+    return x = nil ; --ComentarioCurto
+}
