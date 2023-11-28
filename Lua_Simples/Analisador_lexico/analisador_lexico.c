@@ -2,6 +2,7 @@
 #include <stdbool.h>
 #include <string.h>
 #include <ctype.h>
+#include <stdlib.h>
 
 // Definições dos tipos de token usando #define
 #define IDENTIFIER 256
@@ -144,7 +145,6 @@ bool isComment(const char* lexema) {
 }
 
 // Autômato para analisar um lexema e retornar o token correspondente
-
 struct Token analisaToken(const char* lexema, int linha) {
     struct Token token;
 
